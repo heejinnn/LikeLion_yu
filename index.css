@@ -1,0 +1,112 @@
+*{
+  background-color: black;
+  color:white;
+}
+.mainbox{
+  margin:200px;
+  margin-top:200px;
+}
+
+h1{
+  width:300px;
+  font-size:55px;
+  font-weight: bold;
+}
+.comment{
+  width:350px;
+  font-size:15px;
+  font-weight:lighter;
+}
+.ment{
+  font-size:15px;
+  margin-top:20px;
+}
+
+.box-container{
+  display: flex;
+  height:200px;
+}
+
+.box{
+  display: flex;
+  color:black;
+  background-color: white;
+  font-size:25px;
+  font-weight: bold;
+  width:70px;
+  height:100px;
+  margin: 5px;
+  padding:40px;
+  border-radius: 10px;
+  align-items:center;
+  justify-content: center;
+}
+.login{
+  font-size:40px;
+  margin-left:100px;
+  margin-bottom:50px;
+}
+.login-form{
+  width:100px;
+  height:100px;
+  float:right;
+  text-align: center;
+  font-weight: bold;
+  margin-right:400px;
+  margin-top:-650px;
+}
+.ID-icon{
+  position: relative;
+}
+.ID-icon i{
+  position: absolute;
+  padding:5px;
+  margin-top:5px;
+  left:10px;
+  color: gray;
+  background-color: white;
+}
+.ID-field{
+  font-size:20px;
+  font-style: italic;
+  background-color:white;
+  font-weight: bold;
+  color: gray;
+  border-radius: 20px;
+  width:300px;
+  height:35px;
+}
+
+.PW-icon{
+  position: relative;
+}
+.PW-icon i{
+  position: absolute;
+  padding:5px;
+  margin-top:5px;
+  left:10px;
+  color: gray;
+  background-color: white;
+}
+.pass-field{
+  font-size:20px;
+  font-style: italic;
+  background-color:white;
+  font-weight: bold;
+  color: gray;
+  border-radius: 20px;
+  width:300px;
+  height:35px;
+}
+.submit-btn{
+  width:200px;
+  font-size:15px;
+  margin-top:30px;
+  background-color:orange;
+  border-radius: 20px;
+  margin-left:70px;
+  padding:8px;
+}
+
+
+
